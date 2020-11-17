@@ -84,3 +84,6 @@ app.use('/todos', todoRoutes);
 app.listen(PORT, function() {
     console.log("Server is running on PORT: " + PORT);
 });
+
+// The communication between front-end and back-end will be done by sending HTTP request to the various server endpoints we've created.
+
